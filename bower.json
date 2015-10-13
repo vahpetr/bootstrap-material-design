@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-material-design",
+  "version": "0.1.0",
+  "authors": [
+    "Vasilev Pyotr <vahpetr@gmail.com>"
+  ],
+  "license": "Apache 2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "temp"
+  ],
+  "main": [
+    "dist/css/bootstrap.css"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
