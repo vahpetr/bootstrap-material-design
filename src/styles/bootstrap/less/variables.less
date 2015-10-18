@@ -223,11 +223,11 @@
 @input-color-placeholder:        #acb6c0;
 
 //** Default `.form-control` height
-@input-height-base:              (@line-height-computed + (@padding-base-vertical * 2) + 4);
+@input-height-base:              (@line-height-computed + (@padding-base-vertical * 2) + 1);
 //** Large `.form-control` height
-@input-height-large:             (ceil(@font-size-large * @line-height-large) + (@padding-large-vertical * 2) + 4);
+@input-height-large:             (ceil(@font-size-large * @line-height-large) + (@padding-large-vertical * 2) + 1);
 //** Small `.form-control` height
-@input-height-small:             (floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) + 4);
+@input-height-small:             (floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) + 1);
 
 //** `.form-group` margin
 @form-group-margin-bottom:       15px;
@@ -376,7 +376,7 @@
 
 // Basics of a navbar
 @navbar-height:                    50px;
-@navbar-margin-bottom:             @line-height-computed;
+@navbar-margin-bottom:             0px;//@line-height-computed;
 @navbar-border-radius:             @border-radius-base;
 @navbar-padding-horizontal:        floor((@grid-gutter-width / 2));
 @navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
