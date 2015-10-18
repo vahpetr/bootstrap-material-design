@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-material-design",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "description": "bootstrap material design style",
   "main": "dist/css/bootstrap.css",
   "scripts": {
